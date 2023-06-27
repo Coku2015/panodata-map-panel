@@ -7,14 +7,14 @@ import { ColorModes } from './model';
 
 const tileServers = {
   'CARTO Positron': {
-    url: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+    url: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
     attribution:
       '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> ' +
       '&copy; <a href="https://carto.com/about-carto/" target="_blank" rel="noopener">CARTO</a>',
     subdomains: 'abcd',
   },
   'CARTO Dark': {
-    url: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+    url: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png',
     attribution:
       '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> ' +
       '&copy; <a href="https://carto.com/about-carto/" target="_blank" rel="noopener">CARTO</a>',
